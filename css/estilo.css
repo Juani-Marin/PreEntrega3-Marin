@@ -1,0 +1,52 @@
+/* la hoja se trabaja de 0 */
+/* Importación de fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans&display=swap');
+
+/*  Variables */
+$font-family: 'Rethink Sans', sans-serif;
+$background-color: #31304D;
+
+body, header, main, div, footer, section, ol {
+    font-family: $font-family;
+}
+
+header {
+    background-color: $background-color;
+    color: white;
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+main {
+    background-color: $background-color;
+    color: white;
+
+    .imagen {
+        background-image: url(../Multimedia/menu.jpeg);
+        background-size: contain;
+    }
+}
+
+ul, div, footer, section {
+    color: black;
+}
+
+ol {
+    background-color: $background-color;
+    color: white;
+}
+
+label, h2, h1, p {
+    color: white;
+}
+
+img {
+    width: 500px;
+}
+
+a img {
+    width: 80px;
+}
